@@ -8,9 +8,9 @@ app.get("/", (req, res) => {
   });
 });
 
-app.get("/test", (req, res) => {
+app.get("/chat", (req, res) => {
   res.status(200).json({
-    message: "Hello from Test Server 3",
+    message: "Hello from Chat Server 3",
   });
 });
 
